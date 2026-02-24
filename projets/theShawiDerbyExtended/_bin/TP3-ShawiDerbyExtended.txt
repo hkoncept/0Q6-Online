@@ -1,0 +1,76 @@
+// Projet développé par [VOTRE NOM ICI]
+
+#include <iostream>
+#include <conio.h>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
+#include <iomanip>
+
+using namespace std;
+
+const int HORSES_COUNT = 9;									//Nombre de chevaux dans chaque derby
+const int DERBIES_COUNT = 5;								//Nombre de derbies à jouer
+const int MIN_STEPS = 1;										//Nombre minimal de pas qu'un cheval peut faire
+const int MAX_STEPS = 5;										//Nombre maximal de pas qu'un cheval peut faire
+const string HORSES_FILE = "horses.csv";		//Base de données des chevaux
+const string DERBIES_FILE = "derbies.csv";	//Base de données des derbies
+const bool WAIT_FOR_SPACE_KEY = true;				//Variable devant être placée à false avant la remise servant à annuler les demandes d'appuie sur la barre d'espacement.  Les derbies doivent s'enchaîner automatiquement jusqu'à la fin !
+
+struct Horse {
+	string name;								//Nom du cheval
+	int number;									//Numéro du cheval		
+	int location = 0;						//Position du cheval sur la piste de course
+	const string toString() {		//Méthode pour afficher les informations du cheval selon le vidéo de GameZone Inc.
+		//TODO: À faire fonctionner
+	}
+};
+
+struct Derby {
+	string name;								//Nom du derby
+	int trackLength;						//Longueur de la piste de course
+	Horse horses[HORSES_COUNT];	//Tableau de chevaux participant au derby	
+	int winningLine = 0;				//Numéro du cheval gagnant, 0 pour une course non complétée
+	const string toString() {		//Méthode pour afficher les informations du derby selon le vidéo de GameZone Inc.
+		//TODO: À faire fonctionner et assurez-vous de supprimer ce TODO une fois terminé
+	};
+	const string getWinner() {	//Méthode pour afficher le nom du cheval gagnant selon le vidéo de GameZone Inc.
+		//TODO: À faire fonctionner et assurez-vous de supprimer ce TODO une fois terminé
+	}
+};
+
+/*
+Liste des fonctions que vous devez implémenter
+*/
+
+//TODO: Implémentez vos fonctions ici et assurez-vous de supprimer ce TODO une fois terminé
+
+
+/*
+Fonction à utiliser pour faire attendre l'appuie sur la barre d'espacement avant de continuer
+*/
+void waitForSpaceKey() {
+	char input = 0;
+	while (input != 32 && WAIT_FOR_SPACE_KEY) {
+		input = _getch();
+	}
+}
+
+
+/*
+Fonction principale
+*/
+void theShawiDerby() {
+	srand(static_cast<unsigned>(time(0)));
+
+	//TODO: Votre code ici, utilisant des fonctions réutilisables et des strutures et assurez-vous de supprimer ce TODO une fois terminé
+
+}
+
+
+int main() {
+	setlocale(LC_ALL, "");
+	theShawiDerby();
+	return 0;
+}
