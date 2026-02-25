@@ -129,7 +129,7 @@ Cette comparaison est fausse !
 ```
 
 ```plaintext
-Entrez la comparaison (exemple 4829017 > 7301462) : 4829017 == 7301462
+Entrez la comparaison (exemple 4829017 > 7301462) : 4829017 = 7301462
 Cette comparaison est vraie !
 ```
 
