@@ -152,7 +152,7 @@ Vous venez de recevoir ce courriel :
 >
 > Jusqu'au _Black Friday_, nous voulons offrir des packages formés de 2 produits ou plus à nos clients et offrir ce **produit** à 10% de rabais.
 >
-> Notre préposé aux ventes sera en charge de créer les packages en entrant les numéros de SKU manuellement. Pour ne pas se casser la tête, nous souhaitons que le nom du package soit simplement l'ensemble des noms des produits le composant. Pour le SKU du package ainsi créé, vous êtes libre de nous proposer une solution car cela nous importe peu étant donné que le package sera temporaire.
+> Notre préposé aux ventes sera en charge de créer les packages en entrant les numéros de SKU manuellement. Pour ne pas se casser la tête, nous souhaitons que le nom du package soit simplement `PACKAGE #X`. Pour le SKU du package ainsi créé, vous êtes libre de nous proposer une solution car cela nous importe peu étant donné que le package sera temporaire.
 >
 > Nous aimerions que les clients puissent choisir ces nouveaux **produits** sans rien changer au code du site web en cours. Donc, de ce côté, vous n'aurez rien à faire !
 >
