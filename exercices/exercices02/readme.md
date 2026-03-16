@@ -134,7 +134,7 @@ Cette comparaison est vraie !
 ```
 
 ```plaintext
-Entrez la comparaison (exemple 4829017 > 7301462) : 4829017 > 7301462
+Entrez la comparaison (exemple 4829017 > 7301462) : 4829017 < 7301462
 Cette comparaison est fausse !
 ```
 
@@ -171,13 +171,16 @@ Vous venez de recevoir ce courriel :
 4. Trouver une méthode rapide de tester le résultat.
 
 #### Important à savoir
+
 Vous devrez utiliser un pointeur afin d'être en mesure de surcharger l'opérateur `+=`.
+
 ```cpp
 Item& operator+=(const Item& other) {
 	// Votre code ici !
 	return *this;
 }
 ```
+
 > ATTENTION : L'utilisation détaillée des pointeurs sera présentée sous peu.
 
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
