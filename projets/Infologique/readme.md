@@ -7,7 +7,7 @@
 
 > ATTENTION: **Infologique Inc.** exige du code 100% en anglais.
 
-## Devis #1 - Affichage des produits
+## Projet #2 (10%) - Affichage des produits
 
 1. Créer la classe `Product` incluant les sections que vous avez vues en classe ainsi qu'une surcharge de l'opérateur de sortie.
 2. Créer une structure de données de liste chaînée (classe `ProductList`) permettant de regrouper les données des produits disponibles qui contiendra au minimum :
@@ -43,7 +43,7 @@
 -----------------------------------------------------------------
 ```
 
-## Devis #2 - Impression des coupons de caisse
+## Projet #3 (10%) - Impression des coupons de caisse
 
 Afin de pouvoir utiliser la liste chaînée dans plusieurs projets, **Infologique Inc** vous demande maintenant de transformer `ProductList` en une structure de données de liste chaînée générique nommée `LinkedList`. Vous serez, par la suite, en mesure de faire générer les coupons de caisse aléatoirement :
 

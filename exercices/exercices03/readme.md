@@ -252,6 +252,5 @@ count++;
 cout << endl << "Le produit #" << sku << " a été ajouté au panier.";
 }
 ```
-<hr/>
-<p align="center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
+<hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
 
