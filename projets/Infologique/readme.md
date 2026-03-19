@@ -4,6 +4,7 @@
 <h1 align="Center">🧾 Infologique Inc. 🧾</h1>
 
 [Lien vers le Projet #2 (10%)](#projet-2-10---affichage-des-produits)
+
 [Lien vers le Projet #3 (10%)](#projet-3---impression-des-coupons-de-caisse)
 
 **Infologique Inc.**, une entreprise œuvrant dans la vente de logiciels, souhaite créer une application de vente au détail (POS) afin de la proposer à sa clientèle travaillant dans la vente au détail (dont **Atlas Informatique**). Il vous demande de créer une preuve de concept de structure de données permettant la création de reçus d'achat pour une caisse enregistreuse munie d'un lecteur de code-barres. Comme **Infologique Inc.** est située en France, elle est consciente qu'elle ne pourra pas vous fournir le matériel nécessaire aux tests avec le lecteur de code-barres. Elle désire que vous soyez en mesure de lui envoyer une solution Visual Studio capable de simuler la création de reçus de vente et de reproduire de réels achats. **Infologique Inc.** possède la [base de données](./_bin/products.dat) des produits offerts par son client.
