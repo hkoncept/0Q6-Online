@@ -43,7 +43,7 @@
 -----------------------------------------------------------------
 ```
 
-## Projet #3 (10%) - Impression des coupons de caisse
+## Défi (2%) - Impression des coupons de caisse
 
 Afin de pouvoir utiliser la liste chaînée dans plusieurs projets, **Infologique Inc** vous demande maintenant de transformer `ProductList` en une structure de données de liste chaînée générique nommée `LinkedList`. Vous serez, par la suite, en mesure de faire générer les coupons de caisse aléatoirement :
 
