@@ -93,7 +93,7 @@ L'idée ici, c'est de créer une structure de données de pile plus pratique que
 1. devrait retourner l'entité retirée lors du déclenchement de `pop()`;
 2. devrait être en mesure d'avertir que la pile est pleine avec `full()`.
 
-Nous utiliserons alors un tableau statique (régulier) d'une taille de 50 caractères afin de créer une structure de données nommée `StackIT`, enregistrant des données de type `char`. Cette classe devra avoir les mêmes méthodes que la classe `stack` de C++, en y ajoutant les deux qui manquent.
+Nous utiliserons alors un tableau statique (régulier) d'une taille de 69 caractères afin de créer une structure de données nommée `StackIT`, enregistrant des données de type `char`. Cette classe devra avoir les mêmes méthodes que la classe `stack` de C++, en y ajoutant les deux qui manquent.
 
 Pour des raisons pédagogiques, nous considérerons que `-1` représente `vide`. Retournez donc `EMPTY` dans les fonctions qui nécessitent de retourner une valeur, même si la pile est vide.
 ```cpp
@@ -124,7 +124,7 @@ Si aucune prévalidation n'est effectuée, au moins `StackIT` devrait vous retou
 ```plaintext
 Message #2
 --------------
-L'enseignant s'efforce de creer des exercices qui vous seront utiles dans la vraie vie.
+nant s'efforce de creer des exercices qui vous seront utiles dans la vrai vie.
 ```
 
 ##### En laissant la pile faire le travail d'urgence
@@ -140,7 +140,7 @@ Erreur, la pile est pleine! Impossible d'y ajouter [101].
 Erreur, la pile est pleine! Impossible d'y ajouter [39].
 Erreur, la pile est pleine! Impossible d'y ajouter [76].
 Erreur, la pile est pleine! Impossible d'y ajouter [0].
-L'enseignant s'efforce de creer des exercices qui vous seront utiles dans la vraie vie.
+nant s'efforce de creer des exercices qui vous seront utiles dans la vrai vie.
 ```
 
 Comment faire pour que le deuxième message s'affiche bien sans rien changer dans l'algorithme __principal__ (code de `question03()`) ?
