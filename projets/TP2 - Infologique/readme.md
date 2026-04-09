@@ -1,17 +1,15 @@
 <p align="center"><img src="../../includes/logo.svg" alt="drawing" width="100"/></p>
 <h4 align="center">0SH - Structure de données</h4>
-<h1 align="Center">Projet #2</h1>
+<h1 align="Center">Projet #2 (10%)</h1>
 <h1 align="Center">🧾 Infologique Inc. 🧾</h1>
 
-[Lien vers le Projet #2 (10%)](#projet-2-10---affichage-des-produits)
-
-[Lien vers le Projet #3 (10%)](#projet-3---impression-des-coupons-de-caisse)
 
 **Infologique Inc.**, une entreprise œuvrant dans la vente de logiciels, souhaite créer une application de vente au détail (POS) afin de la proposer à sa clientèle travaillant dans la vente au détail (dont **Atlas Informatique**). Il vous demande de créer une preuve de concept de structure de données permettant la création de reçus d'achat pour une caisse enregistreuse munie d'un lecteur de code-barres. Comme **Infologique Inc.** est située en France, elle est consciente qu'elle ne pourra pas vous fournir le matériel nécessaire aux tests avec le lecteur de code-barres. Elle désire que vous soyez en mesure de lui envoyer une solution Visual Studio capable de simuler la création de reçus de vente et de reproduire de réels achats. **Infologique Inc.** possède la [base de données](./_bin/products.dat) des produits offerts par son client.
 
 > ATTENTION: **Infologique Inc.** exige du code 100% en anglais.
-
-## Projet #2 (10%) - Affichage des produits
+## Consignes
+Placez votre algorithme dans la solution Visual Studio présente dans Léa.
+## Affichage des produits
 
 1. Créer la classe `Product` incluant les sections que vous avez vues en classe ainsi qu'une surcharge de l'opérateur de sortie.
 2. Créer une structure de données de liste chaînée (classe `ProductList`) permettant de regrouper les données des produits disponibles qui contiendra au minimum :
@@ -24,7 +22,7 @@
    3. Une fonction `print()` qui affichera la liste des produits à l'écran.
    4. Une fonction `getCount()` qui retournera le nombre total de produits à l'écran.
    5. Un destructeur pour libérer l'espace mémoire des `Node` aloué sur la Heap.
-3. Créer une fonction `readProducts(ProductList)` de lecture des produits depuis le fichier `products.dat` :
+3. Créer une fonction `loadProductsFromFile(ProductList)` de lecture des produits depuis le fichier `products.dat` :
    1. Lire l'ensemble des données d'un produit dans des variables distinctes.
    2. Créer un nouveau produit en utilisant son constructeur.
    3. Ajouter le nouveau produit dans une nouvelle `Node` de `ProductList` en assignant le produits à `data`.
@@ -45,42 +43,25 @@
 | #267444 | Brother         | HL-L2350DW             |  245.18$ |
 | #392085 | Razer           | DeathAdder V2          | 1606.88$ |
 -----------------------------------------------------------------
+
+Appuyez sur une touche pour lancer le test de nettoyage de mémoire...
 ```
 
-## Projet #3 - Impression des coupons de caisse
+```plaintext
+Lancement du test de nettoyage de mémoire.
+Vérifiez la taille de mémoire utilisée par TP2-Infologique dans le Gestionnaire des tâches.
+La mémoire utilisée devrait demeurer relativement stable, si elle augmente significativement, le test échoue!
 
-Afin de pouvoir utiliser la liste chaînée dans plusieurs projets, **Infologique Inc** vous demande maintenant de transformer `ProductList` en une structure de données de liste chaînée générique nommée `LinkedList`. Vous serez, par la suite, en mesure de faire générer les coupons de caisse aléatoirement :
-
-1. Transformer la solution précédente en utilisant `LinkedList`.
-   1. Ajouter une méthode `dataAt(index)` retournant la donnée de la liste à l'index entré en paramètre.
-   2. Ajouter une méthode `getFirst()` qui retourne le premier `data` de la liste ou `null` si la liste est vide.
-   3. Ajouter une méthode `next()` qui retourne le prochain `data` de la liste ou `null` si aucun élément suivant.
-2. Créez une classe `Sale` contenant une liste de produits achetés `items` de type `LinkedList` ainsi que les méthodes nécessaires.
-3. Ajoutez entre 3 à 10 produits sélectionnés au hasard dans la liste des produits avec une quantité achetée de 1 à 5, aussi au hasard.
-   > Ne pas se soucier pour l'instant du cas où le hasard sélectionne plus d'une fois le même produit. Nous gérerons ce cas d'utilisation plus tard.
-4. Créer un coupon de caisse représentant la vente effectuée.
-5. Recréer un nouveau coupon (pas besoin de sauvegarder les coupons précédents) quand on appuie sur `Espace` et quitter sur `Esc`.
-   > Lire la liste des produits qu'une seule fois.
-
-### Visuel du coupon de caisse désiré
-
+Appuyez sur une touche pour arrêter le test.
+..........................................................................................................................................................................................................................................................................................................................................................
 ```
------------------------------
-|      Infologique Inc      |
------------------------------
-|      2025-03-01 16h35     |
------------------------------
-| 002 Western Digital       |
-|     WD Black SN850 1To    |
-|     2065.12       4130.20 |
-|                           |
-| 005 Nvidia                |
-|     GeForce RTX 4070      |
-|      138.46        692.30 |
-|                           |
-|     TOTAL:        4822.54 |
------------------------------
-```
+
+### Provoquez une problématique de création de Zombies
+1. Commentez la ligne qui libère l'espace mémoire de la heap d'un des élément de la liste.
+2. Relancez votre solution et observez à quelle vitesse l'espace mémoire augmente.  On se croyait dans un logiciel de la suite Adobe 😂😂😂 ! 
+3. Replacez le code original et revérifiez que la mémoire demeure stable.
+
+> 😂 Vous êtes maintenant un pro de la gestion de la mémoire !
 
 <hr/>
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
