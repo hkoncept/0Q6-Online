@@ -9,7 +9,7 @@ Ils désirent pouvoir charger leurs produits en mémoire dans une structure de d
 
 Le test nommé `runProductUpdateTest()` devra démontrer que la modification locale (dans le test) d’un `product` sélectionné aléatoirement se répercute dans la structure de données centrale.
 
-Ils ont déjà programmé le `main` dans une [solution Visual Studio](./_bin/ShaliExpress.zip) de base à utiliser et vous demandent de ne rien changer dans cette fonction principale.
+Ils ont déjà programmé une [solution Visual Studio](./_bin/ShaliExpress.zip) de base à utiliser et vous demandent de ne rien changer au code présent à l'exception des éléments commentés.
 
 Leur équipe d’experts à l’interne a statué que seul le plus petit fichier de données sera utilisé afin d’effectuer le test et vous demande alors de fixer la taille de votre structure de données à `1500` éléments possibles.
 
