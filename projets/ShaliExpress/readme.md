@@ -15,11 +15,46 @@ Ils ont préparé la solution à utiliser afin de programmer la preuve de concep
 
 > ATTENTION : **Shali Express** exige du code 100 % en anglais.
 
+## Étape #1 - ProductList générique
+Donnez à la liste chaînée du __TP2-Infologique__ la possibilité d'enregistrer autre chose que des `Product`.  En C++ nous déclarons une structure générique en utilisant le mot clé `template`.
+
+### Test d'assurance qualité
+[Bientôt dans un GitHub près de chez vous...]
+
+## Étape #2 - StaticHashMap
+Créer une structure de données de type __HashMap__ basée sur une table statique de pointeurs (tableau régulier).
+
+### Test d'assurance qualité
+[Bientôt dans un GitHub près de chez vous...]
+
+## Étape #3 - Architecture des données
+Créez, sur papier ou dans un outil que vous connaissez, un mini-schéma de l'architecture des données de la solution et __présentez-là au client__.  Ce schéma devra répondre à ces questions :
+1. Où allons-nous enregistrer l'ensemble des produits disponibles ?
+2. Où allons-nous enregistrer la liste des paniers d'achats des clients ?
+3. Comment pouvoir ajouter une quantité à un produit dans le panier ?
+4. Quelle structure de donnée sera utilisée afin d'avoir plusieurs produits dans un seul panier ?
+
+> Demande du client : Avoir le contrôle total du code de toutes les structures de données utilisées
+
+### Test d'assurance qualité
+L'assurance qualité sera acceptée par le client doit __obligatoirement__ valider votre structure avant de continuer plus loins dans ce projet.
+
+
+## Étape #4 - En cours
+
+## Étape #5 - En cours
+
+### Test d'assurance qualité
+Le client doit __obligatoirement__ valider votre structure avant de continuer plus loins dans ce projet.
+
+
 ## Logique à respecter
 
 Au lancement de la preuve de concept, **Shali Express** souhaite une vérification de l'existence de tous les fichiers présents dans la structure de configuration actuelle. Ce code doit être assez robuste pour supporter un changement des **données de configuration**.
 
-Elle souhaite ensuite que la preuve de concept démarre les tests de performance avant de charger la base de données officielle qui proviendra du fichier pointé par `onlineConfigIndex`.
+Elle souhaite ensuite que la preuve de concept démarre les tests d'assurance qualité de performance et s'espace mémoire afin de prouver qu'il sera possible de charger tous les produits en mémoire
+
+ avant de charger la base de données officielle qui proviendra du fichier pointé par `onlineConfigIndex`.
 
 Après les tests de performance, **Shali Express** souhaite que la preuve de concept génère un nombre de `cart` défini par `cartSimulationCount` en mémoire, contenant chacun entre 1 et 10 produits sélectionnés aléatoirement dans la structure de données choisie.
 
