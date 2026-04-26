@@ -36,7 +36,7 @@ C’est à cet endroit que les tests de `StaticHashMap` s’effectueront :
 
 1. Chargez les produits depuis le fichier et stockez-les dans une `map` (`StaticHashMap`).
 2. Enregistrez dans `productPtr` un produit au hasard dans la map et affichez le produit associé à l’écran.
-3. Modifiez la marque du produit de `productPtr` et affichez à nouveau.
+3. Modifiez la marque du produit de `productPtr` pour `ShaliExpressPro` et affichez à nouveau.
 4. Allez chercher le même produit depuis la **structure de données** et affichez-le.
 
 > Le test sera considéré fonctionnel si les deux derniers affichages sont identiques et que la mémoire demeure stable.
