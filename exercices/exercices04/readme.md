@@ -126,6 +126,11 @@ Chargez les produit dans une structure de données `map`.  Affichez ensuite l'en
 # Question 03 - LinkMe
 Assurez-vous d'être en mesure d'accéder à la description d'un produit, à partir d'un pointeur (ou variable) d'un produit.
 
-# Question 04 - À venir...
+# Question 04 - PriceByPrice
+Trouvez la façon la plus optimale d'afficher les produits triés par prix __descendants__.
+
+# Question 05 - GetSKU
+Créez une fonction `getSKU` responsable de fournir une `list` des code de produits.
+
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
 
