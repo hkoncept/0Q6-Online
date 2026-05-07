@@ -130,7 +130,7 @@ Assurez-vous d'être en mesure d'accéder à la description d'un produit, à par
 Trouvez la façon la plus optimale d'afficher les produits triés par prix __descendants__.
 
 # Question 05 - GetSKU
-Créez une fonction `getSKU` responsable de fournir une `list` des code de produits.
+Créez une fonction `getSKU` responsable de fournir une `list` des codes de produits.
 
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
 
