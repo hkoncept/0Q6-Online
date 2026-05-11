@@ -3,6 +3,8 @@
 
 # 🏋🏻‍♂️ Exercices 04 - Les conteneurs 🏋🏻‍♂️
 
+Lien vers la [documentation](https://cplusplus.com/reference/stl/).
+
 ### Données de base :
 ```cpp 
 vector<Category> categories = {
@@ -130,7 +132,7 @@ Assurez-vous d'être en mesure d'accéder à la description d'un produit, à par
 Trouvez la façon la plus optimale d'afficher les produits triés par prix __descendants__.
 
 # Question 05 - GetSKU
-Créez une fonction `getSKU` responsable de fournir une `list` des codes de produits.
+Créez une fonction `getSKU` responsable de fournir une [list](https://www.geeksforgeeks.org/cpp/list-cpp-stl/) des codes de produits.  Dans la fonction `question05()`, affichez cette liste de sku. 
 
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
 
